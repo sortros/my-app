@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.DivOscuro {
+  background-color: #111f35;
+  width: 95%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+.Box{
+  color: white;
+  width: 35%;
+  padding-left: 50px;
+  padding-top: 100px;
+}
+.TextBox{
+  color: white;
+  width: 35%;
+  padding-left: 50px;
+}
+.ButtonBox{
+padding-left: 60px;
+padding-top: 40px;
+}
+
+.Button{
+  padding-left: 10px;
+  padding-top: 10px;
+  display: flex;
+  width: 120px;
+  height: 50px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.Logos{
+  align-items: center;
+  height: 900px;
+  padding-top: 100px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  color: #0d1117;
+  justify-content: space-around;
+}
+.Text{
+  text-justify: auto;
+  text-align: left;
+  color: #0d1117;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+}
+p{
+  width: 340px;
+  padding-left: 20px;
+  color: grey;
+  text-align: left;
+}
+
+h1{
+  padding-left: 20px;
+  text-align: left;
+}
+
+h2{
+  padding-left: 20px;
+  text-align: left;
+}
+img{
+  padding-right: 200px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
